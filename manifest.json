@@ -1,0 +1,18 @@
+{
+   "name": "HelloSurf",
+   "version": "1.0",
+   "manifest_version": 2,
+   "icons": {
+     "128": "surfing_Indo.png"
+   },
+   "content_scripts": [
+     {
+       "matches": [""],
+       "js": ["blahblah.js"]
+     }
+  ],
+  "browser_action": {
+    "default_popup": ".html",
+    "default_title": "Message here!"
+  }
+}
